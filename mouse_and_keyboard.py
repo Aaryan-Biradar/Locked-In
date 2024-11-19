@@ -6,7 +6,7 @@ import threading
 last_input_time = time.time()
 
 # Timeout (in seconds) after which you assume no input occurred
-timeout = 10
+timeout = 5
 
 # Callback function for keyboard events
 def on_press(key):

@@ -18,7 +18,7 @@ def main():
     last_face_time = time.time()  # Time since the last face was detected
     last_eye_time = time.time()   # Time since the last eyes were detected
     error_count = 0                # Counter for the error messages
-    timeout = 10                   # Time limit for inactivity in seconds
+    timeout = 5                   # Time limit for inactivity in seconds
 
 
     while True:
